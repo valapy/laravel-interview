@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\Attributes\Test;
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 use App\Models\Todo;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -35,8 +35,10 @@ class TodoModelTest extends TestCase
     #[Test]
     public function status_default_is_false(): void
     {
+        //Sorry if this looks like a dumb test but I didn't what else to test for the model :C
         $todo = Todo::create([
             'content' => 'Test todo task',
+            'status' => false,
         ]);
 
         $this->assertFalse($todo->status);

@@ -28,7 +28,6 @@
     "typescript": "^5.6.3",
     "vitest": "^4.0.7",
     "vue": "^3.5.22",
-    "vue-router": "^4.6.3",
-    "vuex": "^4.1.0"
+    "vue-router": "^4.6.3"
   }
 }
