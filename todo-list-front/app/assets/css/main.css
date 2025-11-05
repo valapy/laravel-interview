@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Josefin Sans', sans-serif;
+  --font-size-base: 18px;
+
+  /* Custom colors */
+  --color-bright-blue: hsl(220 98% 61%);
+
+  /* Light theme */
+  --color-light-bg: hsl(0 0% 98%);
+  --color-light-card: hsl(0 0% 100%);
+  --color-light-text: hsl(235 19% 35%);
+  --color-light-text-completed: hsl(233 11% 84%);
+  --color-light-text-muted: hsl(236 9% 61%);
+  --color-light-border: hsl(233 11% 84%);
+
+  /* Dark theme */
+  --color-dark-bg: hsl(235 21% 11%);
+  --color-dark-card: hsl(235 24% 19%);
+  --color-dark-text: hsl(234 39% 85%);
+  --color-dark-text-hover: hsl(236 33% 92%);
+  --color-dark-text-muted: hsl(234 11% 52%);
+  --color-dark-text-completed: hsl(233 14% 35%);
+  --color-dark-border: hsl(237 14% 26%);
+}
+
+.checkbox-gradient {
+  background: linear-gradient(135deg, hsl(192 100% 67%), hsl(280 87% 65%));
+}

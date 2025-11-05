@@ -118,3 +118,13 @@ onMounted(async () => {
     </div>
   </div>
 </template>
+
+<style>
+body {
+  font-size: 18px;
+}
+
+.checkbox-gradient {
+  background: linear-gradient(135deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+</style>
